@@ -1,0 +1,282 @@
+[
+  {
+    "nombre": "REMERAS",
+    "precio": 4000,
+    "imagen": "./img/remera1.jpg",
+    "categoria": "remera",
+    "id": "remera"
+  },
+  {
+    "nombre": "PANTALONES",
+    "precio": 13000,
+    "imagen": "./img/pantalon1.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon"
+  },
+  {
+    "nombre": "ABRIGOS",
+    "precio": 24000,
+    "imagen": "./img/campera1.jpg",
+    "categoria": "campera",
+    "id": "campera"
+  },
+  {
+    "nombre": "ZAPATILLAS",
+    "precio": 26000,
+    "imagen": "./img/zapatilla1.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 3000,
+    "imagen": "./img/remera2.jpg",
+    "categoria": "remera",
+    "id": "remera01"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 12000,
+    "imagen": "./img/pantalon2.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon01"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 23000,
+    "imagen": "./img/campera2.jpg",
+    "categoria": "campera",
+    "id": "campera01"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 24000,
+    "imagen": "./img/zapatilla2.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla01"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 2500,
+    "imagen": "./img/remera3.jpg",
+    "categoria": "remera",
+    "id": "remera02"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 15000,
+    "imagen": "./img/pantalon3.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon02"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 20000,
+    "imagen": "./img/campera3.jpg",
+    "categoria": "campera",
+    "id": "campera02"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 28000,
+    "imagen": "./img/zapatilla3.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla02"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 3200,
+    "imagen": "./img/remera4.jpg",
+    "categoria": "remera",
+    "id": "remera03"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 15000,
+    "imagen": "./img/pantalon4.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon03"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 23500,
+    "imagen": "./img/campera4.jpg",
+    "categoria": "campera",
+    "id": "campera03"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 22300,
+    "imagen": "./img/zapatilla4.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla03"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 4300,
+    "imagen": "./img/remera5.jpg",
+    "categoria": "remera",
+    "id": "remera04"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 16000,
+    "imagen": "./img/pantalon5.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon04"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 22400,
+    "imagen": "./img/campera5.jpg",
+    "categoria": "campera",
+    "id": "campera04"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 22400,
+    "imagen": "./img/zapatilla5.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla04"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 2540,
+    "imagen": "./img/remera6.jpg",
+    "categoria": "remera",
+    "id": "remera05"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 17600,
+    "imagen": "./img/pantalon6.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon05"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 26500,
+    "imagen": "./img/campera6.jpg",
+    "categoria": "campera",
+    "id": "campera05"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 24600,
+    "imagen": "./img/zapatilla6.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla05"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 5460,
+    "imagen": "./img/remera7.jpg",
+    "categoria": "remera",
+    "id": "remera06"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 15400,
+    "imagen": "./img/pantalon7.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon06"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 25600,
+    "imagen": "./img/campera7.jpg",
+    "categoria": "campera",
+    "id": "campera06"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 23600,
+    "imagen": "./img/zapatilla7.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla06"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 3400,
+    "imagen": "./img/remera8.jpg",
+    "categoria": "remera",
+    "id": "remera07"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 18500,
+    "imagen": "./img/pantalon8.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon07"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 26500,
+    "imagen": "./img/campera8.jpg",
+    "categoria": "campera",
+    "id": "campera07"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 25460,
+    "imagen": "./img/zapatilla8.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla07"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 4540,
+    "imagen": "./img/remera9.jpg",
+    "categoria": "remera",
+    "id": "remera08"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 13650,
+    "imagen": "./img/pantalon9.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon08"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 28070,
+    "imagen": "./img/campera9.jpg",
+    "categoria": "campera",
+    "id": "campera08"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 25400,
+    "imagen": "./img/zapatilla9.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla08"
+  },
+  {
+    "nombre": "-------------REMERAS-------------",
+    "precio": 4650,
+    "imagen": "./img/remera10.jpg",
+    "categoria": "remera",
+    "id": "remera09"
+  },
+  {
+    "nombre": "-----------PANTALONES----------",
+    "precio": 13540,
+    "imagen": "./img/pantalon10.jpg",
+    "categoria": "pantalon",
+    "id": "pantalon09"
+  },
+  {
+    "nombre": "-------------ABRIGOS--------------",
+    "precio": 24670,
+    "imagen": "./img/campera10.jpg",
+    "categoria": "campera",
+    "id": "campera09"
+  },
+  {
+    "nombre": "-----------ZAPATILLAS-----------",
+    "precio": 25400,
+    "imagen": "./img/zapatilla10.jpg",
+    "categoria": "zapatilla",
+    "id": "zapatilla09"
+  }
+]

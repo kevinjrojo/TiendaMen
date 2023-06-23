@@ -1,0 +1,593 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none !important;
+  font-family: cursive;
+}
+.pagina {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 17%;
+}
+.logo {
+  background-color: brown;
+  padding: 7px;
+  border: 2px white solid;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 5rem;
+}
+.logo:hover {
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+}
+.open-menu {
+  display: none;
+}
+nav {
+  width: 260px;
+  transition: 0.5s;
+  background-color: rgb(95, 6, 6);
+  gap: 3rem;
+  grid-row: 1/4;
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/1;
+}
+.categorias {
+  width: 265px;
+  border-right: 2px white solid;
+  background-color: rgb(95, 6, 6);
+}
+.lista-botones {
+  border-right: 2px white solid;
+  display: grid;
+  gap: 2rem;
+}
+.boton-categoria {
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  justify-content: center;
+  padding: 8px;
+  width: 38vh;
+  border-radius: 5px;
+  border: 2px white solid;
+  background-color: brown;
+  display: grid;
+  border-end-end-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.boton-categoria:hover {
+  border-end-end-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: white;
+  color: black;
+  border: 2px black solid;
+}
+.header {
+  height: 35px;
+  background-color: rgb(95, 6, 6);
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column: 2/5;
+}
+.title {
+  text-align: end;
+  color: white;
+}
+.cruz {
+  display: none;
+}
+dd {
+  padding-top: 3px;
+  text-align: center;
+  height: 30.5px;
+  left: 17%;
+  position: absolute;
+  cursor: pointer;
+  width: 33px;
+  background-color: brown;
+  border: 2px white solid;
+  border-start-end-radius: 5px;
+  border-start-start-radius: 5px;
+  border-bottom: 0px;
+}
+dd:hover {
+  border-start-end-radius: 5px;
+  border-start-start-radius: 5px;
+  background-color: white;
+  border: 2px black solid;
+  border-bottom: 0px;
+}
+.tema {
+  background-color: transparent;
+  border: transparent;
+  top: 8px;
+  left: 5px;
+  position: absolute;
+}
+i {
+  height: 34px;
+  left: 80%;
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+  background-color: brown;
+  border: 2px white solid;
+  border-start-end-radius: 5px;
+  border-start-start-radius: 5px;
+  border-bottom: 0px;
+}
+i:hover {
+  border-start-end-radius: 5px;
+  border-start-start-radius: 5px;
+  background-color: white;
+  border: 2px black solid;
+  border-bottom: 0px;
+}
+.number {
+  position: absolute;
+  left: 0px;
+  color: rgb(255, 60, 0);
+  font-size: 27px;
+}
+.bolso {
+  left: 40%;
+  position: absolute;
+  top: -0px;
+  font-size: 24px;
+}
+.main {
+  transition: 0.5s;
+  padding: 15px;
+  gap: 5px;
+  background-color: brown;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column: 2/5;
+}
+#tarjet {
+  height: 17rem;
+  width: 12rem;
+  background-color: rgb(95, 6, 6);
+  border-radius: 2vh;
+  border-start-end-radius: 2vh;
+  border-start-start-radius: 2vh;
+  border: 2px black solid;
+  text-align: center;
+}
+.img {
+  border-start-end-radius: 2vh;
+  border-start-start-radius: 2vh;
+  height: 11rem;
+  width: 12rem;
+}
+.text-nombre {
+  color: white;
+}
+.precio {
+  color: white;
+}
+.boton-agregar {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  background-color: brown;
+  border-radius: 1rem;
+  padding: 7px;
+  border: 2px white solid;
+}
+.footer {
+  padding: 30px;
+  color: white;
+  background-color: rgb(95, 6, 6);
+  grid-column: 1/5;
+}
+
+/*------------- Cambio de tema -----------------------*/
+
+.tema-header {
+  background-color: rgba(156, 87, 87, 0.753);
+}
+.tema-main {
+  transition: 0.7s;
+  background-color: white;
+}
+.tema-nav {
+  background-color: rgba(156, 87, 87, 0.753);
+}
+.tema-categorias {
+  border-right: 2px black solid;
+  background-color: transparent;
+}
+.tema-tema {
+  border: 2px black solid;
+  background-color: white;
+  border-bottom: 0px;
+}
+.tema-tema:hover {
+  border: 2px white solid;
+  background-color: transparent;
+}
+.tema-lunaSol {
+  background-color: transparent;
+  border: transparent;
+  top: 8px;
+  left: 5px;
+  position: absolute;
+}
+.tema-bolsoNumber {
+  background-color: white;
+  border: 2px black solid;
+  color: black;
+  border-bottom: 0px;
+}
+.tema-bolsoNumber:hover {
+  background-color: transparent;
+  border: 2px white solid;
+  color: white;
+}
+.btn-pantalon {
+  border: 2px black solid;
+  color: black;
+  background-color: white;
+}
+.btn-pantalon:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+.btn-remera {
+  border: 2px black solid;
+  color: black;
+  background-color: white;
+}
+.btn-remera:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+.btn-campera {
+  border: 2px black solid;
+  color: black;
+  background-color: white;
+}
+.btn-campera:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+.btn-zapatilla {
+  border: 2px black solid;
+  color: black;
+  background-color: white;
+}
+.btn-zapatilla:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+.btn-todos {
+  color: black;
+  background-color: white;
+  border: 2px black solid;
+}
+.btn-todos:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+.tema-footer {
+  background-color: rgba(156, 87, 87, 0.753);
+}
+.tema-name {
+  color: black;
+  border: 2px black solid;
+  background-color: white;
+}
+.tema-name:hover {
+  border: 2px white solid;
+  color: white;
+  background-color: transparent;
+}
+/*--------Css De carrito-------*/
+
+.title-carrito {
+  color: white;
+}
+.header-carrito {
+  height: 35px;
+  background-color: rgb(95, 6, 6);
+  display: grid;
+  justify-content: center;
+  grid-column: 2/5;
+}
+nav {
+  width: 263px;
+  background-color: rgb(95, 6, 6);
+  grid-row: 1/4;
+  display: flex;
+}
+.main-carrito {
+  display: grid;
+  grid-column: 2/3;
+}
+.footer-carrito {
+  display: grid;
+  height: 25.4vh;
+  padding: 30px;
+  color: white;
+  background-color: rgb(95, 6, 6);
+  grid-column: 1/5;
+}
+.btn-volver {
+  color: black;
+  margin-bottom: 21.8rem;
+  font-size: 15px;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 5px;
+  border-end-end-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: white;
+  display: grid;
+}
+.btn-volver:hover {
+  border-end-end-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: brown;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+}
+#carrito-vacio {
+  width: 125%;
+  padding: 2rem;
+  text-align: end;
+  color: rgb(95, 6, 6);
+}
+#compraFinalizada {
+  width: 110%;
+  padding: 2rem;
+  text-align: end;
+}
+.tarjet-carrito {
+  width: 120%;
+  padding: 1rem;
+  margin: 2rem;
+  color: white;
+  background-color: brown;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+}
+.img-carrito {
+  width: 6rem;
+  height: 6rem;
+}
+.compra-total {
+  display: flex;
+  margin: 1rem;
+}
+.quitar {
+  font-size: 20px;
+}
+.total {
+  padding: 7px;
+  color: rgb(95, 6, 6);
+}
+.btn-comprar {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  background-color: brown;
+  border-radius: 1rem;
+  padding: 7px;
+}
+.name {
+  background-color: rgba(156, 87, 87, 0.753);
+}
+.vacio {
+  display: none;
+}
+.tarjeta-carrito {
+  display: none;
+}
+.comprar {
+  display: none;
+}
+.agradecimiento {
+  display: none;
+}
+.openMenu-carrito {
+  display: none;
+}
+
+/*---------- Vista movil ------*/
+
+@media screen and (max-width: 600px) {
+  .categorias {
+    border: none;
+    width: 0%;
+  }
+  .boton-categoria {
+    border-radius: 5px;
+    width: 142.5%;
+  }
+  .boton-categoria:hover {
+    border-radius: 5px;
+  }
+  .lista-botones {
+    border: none;
+    height: 120%;
+    width: 100%;
+  }
+  nav {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    gap: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.74);
+    transform: translate(-20%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .tema-nav {
+    background-color: rgb(156, 87, 87);
+  }
+  .nav-movil {
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+  }
+  .cruz {
+    position: fixed;
+    left: 90%;
+    top: 1%;
+    display: initial;
+  }
+  .main {
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    width: 538%;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .header {
+    justify-content: start;
+    height: 100%;
+    width: 585%;
+    grid-column: 1/2;
+  }
+  .open-menu {
+    display: initial;
+    width: 2rem;
+    height: 2rem;
+  }
+  .title {
+    padding-left: 10px;
+    font-size: 21px;
+  }
+  dd {
+    border: 2px white solid;
+    top: 80px;
+    left: 20px;
+    position: fixed;
+    z-index: 3;
+    border-radius: 5px;
+  }
+  .tema {
+    left: 7px;
+    top: 7px;
+  }
+  i {
+    width: 50px;
+    border: 2px white solid;
+    border-radius: 5px;
+    height: 33px;
+    position: fixed;
+    z-index: 2;
+    top: 80px;
+    left: 80px;
+  }
+  .bolso {
+    font-size: 20px;
+  }
+  .number {
+    font-size: 23px;
+  }
+  #tarjet {
+    height: 15rem;
+    width: 10rem;
+  }
+  .img {
+    height: 9rem;
+    width: 10rem;
+  }
+
+  /*----- vista movil carrito----*/
+
+  .header-carrito {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    height: 37px;
+    width: 25rem;
+    grid-column: 1/2;
+  }
+  .main-carrito {
+    width: 100%;
+    display: grid;
+    grid-column: 1/3;
+  }
+  .footer-carrito {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 3/3;
+    height: 20vh;
+    color: white;
+    background-color: rgb(95, 6, 6);
+  }
+  #carrito-vacio {
+    height: 53vh;
+    width: 100%;
+    text-align: center;
+    color: rgb(95, 6, 6);
+  }
+  .title-carrito {
+    padding-left: 15px;
+  }
+  .openMenu-carrito {
+    display: initial;
+    height: 2rem;
+  }
+  .btn-volver {
+    width: 210%;
+    border-radius: 5px;
+  }
+  .btn-volver:hover {
+    border-radius: 5px;
+  }
+  .tarjet-carrito {
+    font-size: 12px;
+    width: 94%;
+    padding: 5px;
+    margin: 0.5rem;
+    color: white;
+    background-color: brown;
+  }
+  .img-carrito {
+    width: 4rem;
+    height: 4rem;
+  }
+  .quitar {
+    max-width: 20px;
+    font-size: 15px;
+  }
+  .total {
+    font-size: 12px;
+    padding: 7px;
+    color: rgb(95, 6, 6);
+  }
+  .btn-comprar {
+    font-size: 10px;
+    color: white;
+    background-color: brown;
+    border-radius: 1rem;
+    padding: 3px;
+  }
+  #compraFinalizada {
+    height: 56vh;
+    width: 100%;
+    margin: 0px;
+    padding-top: 2rem;
+    padding-left: 0px;
+    text-align: end;
+  }
+}
